@@ -11,7 +11,7 @@ public class Test {
         int gards = 0;
         int bruks = 0;
 
-        while(run){
+        while (run) {
             System.out.println("*****************");
             System.out.println("1 for ny eiendom, 2 for å slette eiendom");
             System.out.println("3 for antall eiendommer, 4 for å finne eiendom");
@@ -38,11 +38,11 @@ public class Test {
                     break;
                 case 2:
                     System.out.println(eiendom.getNavn());
-                    input = scanner.nextInt()-1;
+                    input = scanner.nextInt() - 1;
                     eiendom.slettEiendom(input);
                     break;
                 case 3:
-                    System.out.println(register.antallEiendom(eiendom)+" Eiendommer");
+                    System.out.println(register.antallEiendom(eiendom) + " Eiendommer");
                     break;
                 case 4:
                     System.out.println("Hvilket kommune nummer");
@@ -59,7 +59,7 @@ public class Test {
                     register.finnGårdsNr(eiendom, input);
                     break;
                 case 6:
-                   System.out.println(register.gjennomSnitt(eiendom)+" m2");
+                    System.out.println(register.gjennomSnitt(eiendom) + " m2");
                     break;
                 case 7:
                     System.out.println("************");
@@ -68,8 +68,9 @@ public class Test {
                 default:
                     scanner.close();
                     run = false;
+                    System.out.println("Ferdig");
                     break;
+            }
         }
     }
-}
 }
