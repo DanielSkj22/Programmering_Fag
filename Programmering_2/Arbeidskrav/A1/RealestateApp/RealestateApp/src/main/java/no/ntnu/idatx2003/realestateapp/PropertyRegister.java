@@ -39,7 +39,7 @@ public class PropertyRegister {
       throw new IllegalArgumentException("property cannot be null");
     }
 
-    boolean success = false;
+    boolean success = true;
     if (this.properties.containsKey(property.getPropertyIDAsString())) {
       this.properties.put(property.getPropertyIDAsString(), property);
       success = false;
