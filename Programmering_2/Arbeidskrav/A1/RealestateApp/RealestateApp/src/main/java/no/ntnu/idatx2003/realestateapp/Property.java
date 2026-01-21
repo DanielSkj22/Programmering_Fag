@@ -28,7 +28,7 @@ public class Property {
    * @param name               the name of the property
    * @param area               the area in square meters
    */
-  public Property(int municipalityNumber, String municipalityName,
+  /**public Property(int municipalityNumber, String municipalityName,
                   int lotNumber, int sectionNumber,
                   String name, double area) {
     this.municipalityNumber = municipalityNumber;
@@ -37,8 +37,8 @@ public class Property {
     this.sectionNumber = sectionNumber;
     this.name = name;
     this.area = area;
-    this.nameOfOwner = null;
   }
+   /**
 
 
   /**
@@ -55,9 +55,13 @@ public class Property {
   public Property(int municipalityNumber, String municipalityName,
                   int lotNumber, int sectionNumber,
                   String name, double area, String nameOfOwner) {
-    this(municipalityNumber, municipalityName,
-        lotNumber, sectionNumber, name, area);
-    this.setNameOfOwner(nameOfOwner);
+    this.municipalityNumber = municipalityNumber;
+    this.municipalityName = municipalityName;
+    this.lotNumber = lotNumber;
+    this.sectionNumber = sectionNumber;
+    this.name = name;
+    this.area = area;
+    this.nameOfOwner = nameOfOwner;
   }
 
   /**
