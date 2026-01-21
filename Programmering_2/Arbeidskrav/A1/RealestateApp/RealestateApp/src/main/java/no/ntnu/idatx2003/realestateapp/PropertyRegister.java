@@ -84,7 +84,7 @@ public class PropertyRegister {
     // Create a temperarely collection to store the found properties in
     HashSet<Property> foundProperties = new HashSet<>();
     for (Property property : this.properties.values()) {
-      if (property.getLotNumber() != lotNumber) {
+      if (property.getLotNumber() == lotNumber) {
         foundProperties.add(property);
       }
     }
