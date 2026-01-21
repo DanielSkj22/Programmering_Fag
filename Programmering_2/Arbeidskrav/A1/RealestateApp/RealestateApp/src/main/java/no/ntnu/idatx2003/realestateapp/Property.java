@@ -126,8 +126,8 @@ public class Property {
    */
   public String getPropertyIDAsString() {
     return "" + this.getMunicipalityNumber()
-        + "-" + this.getLotNumber()
-        + "/" + this.getSectionNumber();
+            + "-" + this.getLotNumber()
+            + "/" + this.getSectionNumber();
   }
 
   /**

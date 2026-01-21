@@ -39,10 +39,10 @@ public class PropertyRegister {
       throw new IllegalArgumentException("property cannot be null");
     }
 
-    boolean success = true;
-    if (this.properties.containsKey(property.getPropertyIDAsString())) {
+    boolean success = false;
+    if (!this.properties.containsKey(property.getPropertyIDAsString())) {
       this.properties.put(property.getPropertyIDAsString(), property);
-      success = false;
+      success = true;
     }
     return success;
   }
@@ -160,6 +160,7 @@ public class PropertyRegister {
    * @return the number of properties in the register.
    */
   public int getNumberOfProperties() {
+
     return this.properties.size();
   }
 }
