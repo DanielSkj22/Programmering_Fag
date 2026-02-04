@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c691baa-693f-4cec-b800-c8631da6e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapLinesTextCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapSelectionTextCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/CapitalizeWordsTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/CapitalizeWordsTextCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <workItem from="1770110333657" duration="2314000" />
       <workItem from="1770141712641" duration="2647000" />
       <workItem from="1770225478506" duration="9071000" />
-      <workItem from="1770244434482" duration="2689000" />
+      <workItem from="1770244434482" duration="4389000" />
     </task>
     <servers />
   </component>

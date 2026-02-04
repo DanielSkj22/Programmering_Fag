@@ -10,5 +10,7 @@ public class Main {
        System.out.println(new CapitalizeSelectionTextCommand("target").execute("target target hello"));
        System.out.println(new CapitalizeWordsTextCommand().execute("target target hello"));
        System.out.println(new WrapTextCommand("S", "P").execute("target target hello"));
+       System.out.println(new WrapSelectionTextCommand("S", "P", "hello").execute("target target hello"));
+       System.out.println(new WrapLinesTextCommand("S", "P").execute("first line\nsecond line"));
     }
 }
