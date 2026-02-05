@@ -5,6 +5,9 @@ public class ReplaceTextCommand implements TextCommand{
     protected String replacement;
 
     public ReplaceTextCommand(String target, String replacement) {
+        if (target.contains(" ") || (replacement.contains(" "))){
+            throw new IllegalArgumentException("Cannot contain empty spaces");
+        }
         this.target = target;
         this.replacement = replacement;
     }
