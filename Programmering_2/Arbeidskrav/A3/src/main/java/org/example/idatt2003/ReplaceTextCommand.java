@@ -1,6 +1,6 @@
 package org.example.idatt2003;
 
-public class ReplaceTextCommand{
+public class ReplaceTextCommand implements TextCommand{
     protected String target;
     protected String replacement;
 
@@ -8,7 +8,7 @@ public class ReplaceTextCommand{
         this.target = target;
         this.replacement = replacement;
     }
-
+    @Override
     public String execute(String text) {
         text = text.replaceAll(target, replacement);
         return text;

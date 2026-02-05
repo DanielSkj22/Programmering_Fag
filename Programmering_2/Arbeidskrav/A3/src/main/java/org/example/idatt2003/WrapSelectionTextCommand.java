@@ -6,6 +6,7 @@ public class WrapSelectionTextCommand extends WrapTextCommand {
         super(opening, end);
         this.selection = selection;
     }
+    @Override
     public String execute(String text){
         text = text.replace(getSelection(),opening.concat(selection).concat(end));
         return text;

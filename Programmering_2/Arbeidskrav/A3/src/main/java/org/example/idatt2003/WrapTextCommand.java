@@ -1,6 +1,6 @@
 package org.example.idatt2003;
 
-public class WrapTextCommand {
+public class WrapTextCommand implements  TextCommand {
     protected String opening;
     protected String end;
     public WrapTextCommand(String opening, String end){
@@ -13,6 +13,7 @@ public class WrapTextCommand {
     public String  getEnd(){
         return end;
     }
+    @Override
     public String execute(String text){
         text = opening.concat(text).concat(end);
         return text;
