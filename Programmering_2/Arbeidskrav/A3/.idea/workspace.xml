@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c691baa-693f-4cec-b800-c8631da6e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrapLinesTextCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrapSelectionTextCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrapTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/Script.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CapitalizeSelectionTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CapitalizeTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CapitalizeWordsTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ScriptTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapSelectionTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapSelectionTextCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/CapitalizeSelectionTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/CapitalizeSelectionTextCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +44,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.CapitalizeSelectionTextCommandTest.executor": "Run",
+    "JUnit.CapitalizeTextCommandTest.executor": "Run",
+    "JUnit.CapitalizeTextCommandTest.negativeTest.executor": "Run",
+    "JUnit.CapitalizeTextCommandTest.positiveTest.executor": "Run",
+    "JUnit.CapitalizeWordsTextCommandTest.executor": "Run",
+    "JUnit.CapitalizeWordsTextCommandTest.positiveTest.executor": "Run",
     "JUnit.ReplaceFirstTextCommandTest.executor": "Run",
     "JUnit.ReplaceTextCommandTest.executor": "Run",
     "JUnit.ReplaceTextCommandTest.positiveTest.executor": "Run",
+    "JUnit.ScriptTest.positiveTest.executor": "Run",
     "JUnit.WrapLinesTextCommandTest.executor": "Run",
     "JUnit.WrapLinesTextCommandTest.positiveTest.executor": "Run",
     "JUnit.WrapSelectionTextCommandTest.executor": "Run",
@@ -88,21 +97,8 @@
       <recent name="org.example.idatt2003" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WrapLinesTextCommandTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.idatt2003.Main" />
-      <module name="A3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.idatt2003.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WrapLinesTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ScriptTest.positiveTest">
+    <configuration name="CapitalizeSelectionTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A3" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +107,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WrapLinesTextCommandTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CapitalizeSelectionTextCommandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapLinesTextCommandTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CapitalizeTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A3" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +122,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WrapLinesTextCommandTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CapitalizeTextCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapitalizeWordsTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CapitalizeWordsTextCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapitalizeWordsTextCommandTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CapitalizeWordsTextCommandTest" />
       <option name="METHOD_NAME" value="positiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapSelectionTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScriptTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A3" />
       <extension name="coverage">
         <pattern>
@@ -142,34 +168,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WrapSelectionTextCommandTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WrapTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WrapTextCommandTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ScriptTest" />
+      <option name="METHOD_NAME" value="positiveTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WrapLinesTextCommandTest" />
-        <item itemvalue="JUnit.WrapLinesTextCommandTest.positiveTest" />
-        <item itemvalue="JUnit.WrapSelectionTextCommandTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.WrapTextCommandTest" />
+        <item itemvalue="JUnit.ScriptTest.positiveTest" />
+        <item itemvalue="JUnit.CapitalizeWordsTextCommandTest" />
+        <item itemvalue="JUnit.CapitalizeWordsTextCommandTest.positiveTest" />
+        <item itemvalue="JUnit.CapitalizeSelectionTextCommandTest" />
+        <item itemvalue="JUnit.CapitalizeTextCommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +210,7 @@
       <workItem from="1770714998497" duration="156000" />
       <workItem from="1770715180682" duration="232000" />
       <workItem from="1770715424652" duration="360000" />
-      <workItem from="1770715796530" duration="3265000" />
+      <workItem from="1770715796530" duration="6389000" />
     </task>
     <servers />
   </component>

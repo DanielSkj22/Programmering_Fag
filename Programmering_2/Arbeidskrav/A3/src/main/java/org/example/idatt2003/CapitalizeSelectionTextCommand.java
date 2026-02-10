@@ -3,6 +3,9 @@ package org.example.idatt2003;
 public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand{
     private String selection;
     public CapitalizeSelectionTextCommand(String selection){
+        if (selection.contains(" ")){
+            throw new IllegalArgumentException("Cannot contain empty spaces");
+        }
         this.selection = selection;
     }
     @Override
