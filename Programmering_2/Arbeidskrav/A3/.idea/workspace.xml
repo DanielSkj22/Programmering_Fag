@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c691baa-693f-4cec-b800-c8631da6e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ReplaceFirstTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrapLinesTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrapSelectionTextCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrapTextCommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/ReplaceFirstTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/ReplaceFirstTextCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapTextCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ReplaceTextCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ReplaceTextCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapSelectionTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapSelectionTextCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,12 @@
     "JUnit.ReplaceFirstTextCommandTest.executor": "Run",
     "JUnit.ReplaceTextCommandTest.executor": "Run",
     "JUnit.ReplaceTextCommandTest.positiveTest.executor": "Run",
+    "JUnit.WrapLinesTextCommandTest.executor": "Run",
+    "JUnit.WrapLinesTextCommandTest.positiveTest.executor": "Run",
+    "JUnit.WrapSelectionTextCommandTest.executor": "Run",
+    "JUnit.WrapTextCommandTest.executor": "Run",
+    "JUnit.WrapTextCommandTest.negativeTest.executor": "Run",
+    "JUnit.WrapTextCommandTest.positiveTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Notification.DisplayName-DoNotAsk-SonarQube for IDE: In Context Promotions": "SonarQube for IDE: In Context Promotions",
     "Notification.DoNotAsk-SonarQube for IDE: In Context Promotions": "true",
@@ -82,7 +88,7 @@
       <recent name="org.example.idatt2003" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.WrapLinesTextCommandTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.idatt2003.Main" />
       <module name="A3" />
@@ -96,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WrapLinesTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A3" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +111,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReplaceTextCommandTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WrapLinesTextCommandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceTextCommandTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WrapLinesTextCommandTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A3" />
       <extension name="coverage">
         <pattern>
@@ -120,18 +126,50 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReplaceTextCommandTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WrapLinesTextCommandTest" />
       <option name="METHOD_NAME" value="positiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WrapSelectionTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WrapSelectionTextCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapTextCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WrapTextCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReplaceTextCommandTest" />
+        <item itemvalue="JUnit.WrapLinesTextCommandTest" />
+        <item itemvalue="JUnit.WrapLinesTextCommandTest.positiveTest" />
+        <item itemvalue="JUnit.WrapSelectionTextCommandTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ReplaceTextCommandTest.positiveTest" />
+        <item itemvalue="JUnit.WrapTextCommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +198,7 @@
       <workItem from="1770714998497" duration="156000" />
       <workItem from="1770715180682" duration="232000" />
       <workItem from="1770715424652" duration="360000" />
-      <workItem from="1770715796530" duration="2139000" />
+      <workItem from="1770715796530" duration="3265000" />
     </task>
     <servers />
   </component>
