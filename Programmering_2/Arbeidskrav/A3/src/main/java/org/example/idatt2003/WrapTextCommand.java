@@ -4,6 +4,9 @@ public class WrapTextCommand implements  TextCommand {
     protected String opening;
     protected String end;
     public WrapTextCommand(String opening, String end){
+        if (opening.contains(" ") || (end.contains(" "))){
+            throw new IllegalArgumentException("Cannot contain empty spaces");
+        }
     this.opening = opening;
     this.end = end;
     }

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c691baa-693f-4cec-b800-c8631da6e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ReplaceTextCommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A2/svar.text" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ReplaceFirstTextCommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/ReplaceTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/ReplaceTextCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/ReplaceFirstTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/ReplaceFirstTextCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/WrapTextCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ReplaceTextCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ReplaceTextCommandTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.ReplaceFirstTextCommandTest.executor": "Run",
     "JUnit.ReplaceTextCommandTest.executor": "Run",
     "JUnit.ReplaceTextCommandTest.positiveTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-SonarQube for IDE: In Context Promotions": "SonarQube for IDE: In Context Promotions",
+    "Notification.DoNotAsk-SonarQube for IDE: In Context Promotions": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -54,13 +57,18 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3/src/test/java/org/example",
+    "last_opened_file_path": "/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3/src/main/java/org/example/idatt2003/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,9 +79,10 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
+      <recent name="org.example.idatt2003" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReplaceTextCommandTest">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.idatt2003.Main" />
       <module name="A3" />
@@ -148,6 +157,10 @@
       <workItem from="1770275600354" duration="5143000" />
       <workItem from="1770320175245" duration="1002000" />
       <workItem from="1770321203046" duration="1903000" />
+      <workItem from="1770714998497" duration="156000" />
+      <workItem from="1770715180682" duration="232000" />
+      <workItem from="1770715424652" duration="360000" />
+      <workItem from="1770715796530" duration="2139000" />
     </task>
     <servers />
   </component>
