@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c691baa-693f-4cec-b800-c8631da6e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/Script.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CapitalizeSelectionTextCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CapitalizeTextCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CapitalizeWordsTextCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ScriptTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/CapitalizeSelectionTextCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/idatt2003/CapitalizeSelectionTextCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,53 +35,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.CapitalizeSelectionTextCommandTest.executor": "Run",
-    "JUnit.CapitalizeTextCommandTest.executor": "Run",
-    "JUnit.CapitalizeTextCommandTest.negativeTest.executor": "Run",
-    "JUnit.CapitalizeTextCommandTest.positiveTest.executor": "Run",
-    "JUnit.CapitalizeWordsTextCommandTest.executor": "Run",
-    "JUnit.CapitalizeWordsTextCommandTest.positiveTest.executor": "Run",
-    "JUnit.ReplaceFirstTextCommandTest.executor": "Run",
-    "JUnit.ReplaceTextCommandTest.executor": "Run",
-    "JUnit.ReplaceTextCommandTest.positiveTest.executor": "Run",
-    "JUnit.ScriptTest.positiveTest.executor": "Run",
-    "JUnit.WrapLinesTextCommandTest.executor": "Run",
-    "JUnit.WrapLinesTextCommandTest.positiveTest.executor": "Run",
-    "JUnit.WrapSelectionTextCommandTest.executor": "Run",
-    "JUnit.WrapTextCommandTest.executor": "Run",
-    "JUnit.WrapTextCommandTest.negativeTest.executor": "Run",
-    "JUnit.WrapTextCommandTest.positiveTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-SonarQube for IDE: In Context Promotions": "SonarQube for IDE: In Context Promotions",
-    "Notification.DoNotAsk-SonarQube for IDE: In Context Promotions": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3/src/test/java/org/example",
-    "last_opened_file_path": "/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3/src/main/java/org/example/idatt2003/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CapitalizeSelectionTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CapitalizeTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CapitalizeTextCommandTest.negativeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CapitalizeTextCommandTest.positiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CapitalizeWordsTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CapitalizeWordsTextCommandTest.positiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplaceFirstTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplaceTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplaceTextCommandTest.positiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScriptTest.positiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WrapLinesTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WrapLinesTextCommandTest.positiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WrapSelectionTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WrapTextCommandTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WrapTextCommandTest.negativeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WrapTextCommandTest.positiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-SonarQube for IDE: In Context Promotions&quot;: &quot;SonarQube for IDE: In Context Promotions&quot;,
+    &quot;Notification.DoNotAsk-SonarQube for IDE: In Context Promotions&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3/src/test/java/org/example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/dan/Documents/Programmering_Skole/Programmering_Fag/Programmering_2/Arbeidskrav/A3/src/main/java/org/example/idatt2003/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -210,7 +204,10 @@
       <workItem from="1770714998497" duration="156000" />
       <workItem from="1770715180682" duration="232000" />
       <workItem from="1770715424652" duration="360000" />
-      <workItem from="1770715796530" duration="6389000" />
+      <workItem from="1770715796530" duration="6420000" />
+      <workItem from="1770723733799" duration="981000" />
+      <workItem from="1770987606917" duration="1016000" />
+      <workItem from="1771234694773" duration="7000" />
     </task>
     <servers />
   </component>
