@@ -10,8 +10,14 @@ public class DeckOfCards {
     public void main(){
     }
     public int random(){
+        int count = 0;
         Random rand = new Random();
-        int noe = rand.nextInt(2)+1;
+        int card;
+        while(count < 5){
+            noe = rand.nextInt(52)+1;
+            System.out.println(noe);
+            count =count + 1;
+        }
         return noe;
     }
 }
