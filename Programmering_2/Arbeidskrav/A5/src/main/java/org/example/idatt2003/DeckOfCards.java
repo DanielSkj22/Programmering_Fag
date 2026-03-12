@@ -42,6 +42,7 @@ public class DeckOfCards {
         showHearts();
         queenOfSpades();
         handSum();
+        flush();
     }
     public String handSum(){
         int sum = 0;
@@ -50,18 +51,23 @@ public class DeckOfCards {
         }
         return String.valueOf(sum);
     }
-    public void showHearts(){
+    public String showHearts(){
         char ting = 'H';
+        String type = "";
+        String tall = "";
+        String result = "";
         List<Cards> list = player.stream()
                 .filter(s -> s.getType()==ting)
                 .toList();
         for(int i = 0; i < list.size(); i++){
-            System.out.println(list.get(i).getSum());
-            System.out.println(list.get(i).getType());
+           result = result.concat(String.valueOf(list.get(i).getType()));
+           result = result.concat(String.valueOf(list.get(i).getSum()));
+            result = result.concat(" ");
         }
         if(list.isEmpty()){
-            System.out.println("There are no hearts");
+            result = "There are no hearts";
         }
+        return result;
     }
     public String queenOfSpades(){
         String queenResult;
@@ -78,5 +84,20 @@ public class DeckOfCards {
             queenResult = "No";
         }
         return queenResult;
+    }
+    public String flush(){
+        char ting = 'H';
+        String type = "";
+        String result = "";
+        List<Cards> list = player.stream()
+                .filter(s -> s.getType()==player.get(0).getType())
+                .toList();
+        if(list.size() == 5){
+            result = "Flush";
+        }
+        else {
+            result = "No Flush";
+        }
+        return result;
     }
 }
