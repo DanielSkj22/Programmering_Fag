@@ -23,8 +23,8 @@ public class javafx extends Application {
         checkHand.setPrefSize(200,200);
         dealHand.setPrefSize(200, 200);
         DeckOfCards deck = new DeckOfCards();
-        checkHand.setOnAction(e-> deck.showHand());
-        dealHand.setOnAction(e-> deck.random());
+        checkHand.setOnAction(e-> deck.showHearts());
+        dealHand.setOnAction(e-> deck.dealHand());
         Group group = new Group(dealHand, checkHand);
         Scene scene1 = new Scene(group,1000,1000, Color.AQUA);
         stage.setScene(scene1);

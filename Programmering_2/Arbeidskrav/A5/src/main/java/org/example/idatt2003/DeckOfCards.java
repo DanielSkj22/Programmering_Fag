@@ -1,23 +1,23 @@
 package org.example.idatt2003;
 
-import java.security.PrivilegedAction;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class DeckOfCards {
     private  ArrayList<Cards> fullDeck;
-    private ArrayList<Integer> player;
+    private ArrayList<Cards> player;
     private final char[] suit = { 'S', 'H', 'D', 'C' };
 
     public DeckOfCards(){
         fullDeck = new ArrayList<>();
         int cardCount = 0;
-        while(fullDeck.size()<53){
+        while(cardCount < 4){
             for(int i = 1; i < 14; i++){
                 Cards newCard = new Cards(suit[cardCount], i);
                 fullDeck.add(newCard);
             }
-            cardCount = cardCount +1;
+            cardCount = cardCount + 1;
         }
     }
 
@@ -27,20 +27,42 @@ public class DeckOfCards {
 
 
 
-    public void random(){
+    public void dealHand(){
         player = new ArrayList<>();
         int count = 0;
         Random rand = new Random();
         int card = 0;
-        while(count < 5){
-            card = rand.nextInt(52)+1;
-            player.add(card);
+        while(count < 6){
+            card = rand.nextInt(52);
+            player.add(getFullDeck().get(card));
             count =count + 1;
         }
     }
     public void showHand(){
         for(int i = 0; i < player.size(); i++){
-            System.out.println(player.get(i));
+            System.out.println();
+            System.out.print(player.get(i).getType());
+            System.out.print(player.get(i).getSum());
+        }
+    }
+    public void handSum(){
+        int sum = 0;
+        for(int i = 0; i < player.size(); i++){
+            sum = sum + player.get(i).getSum();
+        }
+        System.out.println(sum);
+    }
+    public void showHearts(){
+        char ting = 'H';
+        List<Cards> list = player.stream()
+                .filter(s -> s.getType()==ting)
+                .toList();
+        for(int i = 0; i < list.size(); i++){
+            System.out.println(list.get(i).getSum());
+            System.out.println(list.get(i).getType());
+        }
+        if(list.isEmpty()){
+            System.out.println("There are no hearts");
         }
     }
 }

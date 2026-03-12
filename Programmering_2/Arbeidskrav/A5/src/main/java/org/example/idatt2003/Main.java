@@ -4,5 +4,10 @@ package org.example.idatt2003;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
+        DeckOfCards deckOfCards = new DeckOfCards();
+        System.out.println(deckOfCards.getFullDeck().get(51).getSum());
+        System.out.println(deckOfCards.getFullDeck().get(51).getType());
     }
 }
+
+
