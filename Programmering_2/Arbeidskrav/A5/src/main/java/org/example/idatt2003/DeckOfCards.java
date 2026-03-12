@@ -65,4 +65,18 @@ public class DeckOfCards {
             System.out.println("There are no hearts");
         }
     }
+    public void queenOfSpades(){
+        Boolean queenSpade = false;
+        for(int i = 0; i < player.size(); i++){
+           if(player.get(i).getType()=='S' && player.get(i).getSum()==12){
+               queenSpade = true;
+           }
+        }
+        if(queenSpade == true){
+            System.out.println("Queen of spades");
+        }
+        else {
+            System.out.println("No Queen of spades");
+        }
+    }
 }
