@@ -39,18 +39,16 @@ public class DeckOfCards {
         }
     }
     public void showHand(){
-        for(int i = 0; i < player.size(); i++){
-            System.out.println();
-            System.out.print(player.get(i).getType());
-            System.out.print(player.get(i).getSum());
-        }
+        showHearts();
+        queenOfSpades();
+        handSum();
     }
-    public void handSum(){
+    public String handSum(){
         int sum = 0;
         for(int i = 0; i < player.size(); i++){
             sum = sum + player.get(i).getSum();
         }
-        System.out.println(sum);
+        return String.valueOf(sum);
     }
     public void showHearts(){
         char ting = 'H';
@@ -65,7 +63,8 @@ public class DeckOfCards {
             System.out.println("There are no hearts");
         }
     }
-    public void queenOfSpades(){
+    public String queenOfSpades(){
+        String queenResult;
         Boolean queenSpade = false;
         for(int i = 0; i < player.size(); i++){
            if(player.get(i).getType()=='S' && player.get(i).getSum()==12){
@@ -73,10 +72,11 @@ public class DeckOfCards {
            }
         }
         if(queenSpade == true){
-            System.out.println("Queen of spades");
+            queenResult = "Yes";
         }
         else {
-            System.out.println("No Queen of spades");
+            queenResult = "No";
         }
+        return queenResult;
     }
 }
