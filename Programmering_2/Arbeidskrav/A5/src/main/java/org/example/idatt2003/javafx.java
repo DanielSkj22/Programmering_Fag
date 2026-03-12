@@ -13,14 +13,18 @@ import java.io.IOException;
 public class javafx extends Application {
     @Override
     public void start (Stage stage) throws IOException {
-        Button cardHand = new Button();
-        cardHand.setLayoutX(375);
-        cardHand.setLayoutY(200);
-        cardHand.setText("Deal Hand");
-        cardHand.setPrefSize(250, 250);
+        Button checkHand = new Button("Check Hand");
+        Button dealHand = new Button("Deal Hand");
+        dealHand.setLayoutX(150);
+        dealHand.setLayoutY(200);
+        checkHand.setLayoutX(650);
+        checkHand.setLayoutY(200);
+        checkHand.setPrefSize(200,200);
+        dealHand.setPrefSize(200, 200);
         DeckOfCards deck = new DeckOfCards();
-        cardHand.setOnAction(e-> deck.random());
-        Group group = new Group(cardHand);
+        checkHand.setOnAction(e-> deck.showHand());
+        dealHand.setOnAction(e-> deck.random());
+        Group group = new Group(dealHand, checkHand);
         Scene scene1 = new Scene(group,1000,1000, Color.AQUA);
         stage.setScene(scene1);
         stage.show();
